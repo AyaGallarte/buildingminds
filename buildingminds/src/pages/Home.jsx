@@ -7,7 +7,7 @@ export default function Home() {
     return (
            <div className="page-container">
             <div className="content-wrapper">
-                <h1>Yes, it's working</h1>
+                <h3>Webpage in progress</h3>
             </div>
         </div>
     );
