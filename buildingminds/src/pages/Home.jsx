@@ -59,9 +59,9 @@ export default function Home() {
                         <Nav className="me-auto">
                             <Nav.Link href="#home">HOME</Nav.Link>
                             <Nav.Link href="#categories">CATEGORIES</Nav.Link>
-                            <Nav.Link href="">RESOURCES</Nav.Link>
                             <Nav.Link href="#featured">FEATURED</Nav.Link>
-                            
+                            <Nav.Link href="#resources">RESOURCES</Nav.Link>
+                            <Nav.Link href="#about">ABOUT</Nav.Link>                   
                         </Nav>                   
                     </Navbar.Collapse>
                 </Container>
@@ -110,18 +110,95 @@ export default function Home() {
 
         <section id="categories">
             <div>
-                <h1 className="categories-caption">Categories Section</h1>
+                <h1 className="categories-caption">Categories</h1>
                 <Categories />
             </div>
         </section>
 
-        <section>
-            <div className="about-contact" id="about">
-
+        <section id="resources">
+            <div>
+                <h1 className="resources-caption">Resources</h1>
+                <Row className="gx-4 gy-4">
+                    <Col xs={12} sm={6} lg={4} className="resources-videos">
+                        <iframe 
+                            width="100%" 
+                            height="200" 
+                            src="https://www.youtube.com/embed/_BQMwMbxiVo" 
+                            title="Grade 1 : Practice Reading English" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowFullScreen>
+                        </iframe>
+                    </Col>
+                    <Col xs={12} sm={6} lg={4} className="resources-videos">
+                        <iframe 
+                            width="100%" 
+                            height="200" 
+                            src="https://www.youtube.com/embed/Ds226Vh7epg" 
+                            title="Grade 2 Math: Subtraction Rocks with Base Ten Blocks" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowFullScreen>
+                        </iframe>
+                    </Col>
+                    <Col xs={12} sm={6} lg={4} className="resources-videos">
+                        <iframe 
+                            width="100%" 
+                            height="200" 
+                            src="https://www.youtube.com/embed/W3jc0JHwZlQ" 
+                            title="Grade 3: A Computer System" 
+                            frameBorder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            referrerPolicy="strict-origin-when-cross-origin" 
+                            allowFullScreen>
+                        </iframe>
+                    </Col>
+                    <Col xs={12} sm={6} lg={4} className="resources-videos">
+                        <iframe 
+                            width="100%" 
+                            height="200" 
+                            src="https://www.youtube.com/embed/tqY-_wAH4Wg" 
+                            title="Grade 4 : Arts & Crafts" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowFullScreen>
+                        </iframe>
+                    </Col>
+                    <Col xs={12} sm={6} lg={4} className="resources-videos">
+                        <iframe 
+                            width="100%" 
+                            height="200" 
+                            src="https://www.youtube.com/embed/p4uakvlPugY" 
+                            title="Grade 5: Parts of Speech" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowFullScreen>
+                        </iframe>
+                    </Col>
+                    <Col xs={12} sm={6} lg={4} className="resources-videos">
+                        <iframe 
+                            width="100%" 
+                            height="200" 
+                            src="https://www.youtube.com/embed/VETnTb7MX6A" 
+                            title="Music 6 - The Staff, Pitch Names, and So-Fa Syllables" 
+                            frameBorder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            referrerPolicy="strict-origin-when-cross-origin" 
+                            allowFullScreen>
+                        </iframe>
+                    </Col>
+                </Row>
             </div>
-            <div className="footer-container">
+        </section>
 
-            </div>
+
+        <section id="about">
+            <h1>About Us</h1>
+            <h5 id="mission">Our Mission</h5>
+                <p>The mission of Building Minds is to be a dynamic provider of quality educational products and services.
+                    We strive to meet the specific needs of the marketplace in a unique and progressive manner,
+                    and are committed to excellence and employee growth and development.</p>
+            <h5 id="contact">Contact Us</h5>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <p>&copy; {new Date().getFullYear()}. All Rights Reserved.</p>
         </section>
         
         </>
