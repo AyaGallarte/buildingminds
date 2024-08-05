@@ -173,23 +173,23 @@ body {
 }
 
 .accordion-item-custom-2 {
-  background-color: lightcoral; !important;
+  background-color: lightcoral !important;
 }
 
 .accordion-item-custom-3 {
-  background-color: lightseagreen;
+  background-color: lightseagreen !important;
 }
 
 .accordion-item-custom-4 {
-  background-color: lightsalmon; !important;
+  background-color: lightsalmon !important;
 }
 
 .accordion-item-custom-5 {
-  background-color: lightgreen; !important;
+  background-color: lightgreen !important;
 }
 
 .accordion-item-custom-6 {
-  background-color: lightblue;
+  background-color: lightblue !important;
 }
 
 .row-categories li {
