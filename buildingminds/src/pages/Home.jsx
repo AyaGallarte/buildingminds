@@ -108,8 +108,8 @@ export default function Home() {
             </div>
         </section>
 
-        <section id="categories">
-            <div>
+        <section id="categories-section">
+            <div id="categories">
                 <h1 className="categories-caption">Categories</h1>
                 <Categories />
             </div>
